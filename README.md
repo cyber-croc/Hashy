@@ -8,10 +8,9 @@
   
 <h1 align="center">👑 нαѕну 👑<h1>
   <h4 align="center">💜 Amazingly fast password hash cracking using online APIs. 💜</h4>
-<br>
   
 ## 【 About 】
-A simple yet useful password hash cracker that do not require any wordlist to work. It can crack hashes using online APIs. Which is more effective with a higher success rate.
+A simple yet useful password hash cracker that do not require any wordlist to work. It can crack hashes using online APIs. Which is more  effective with a higher success rate.
 
 ## 【 Installation 】
 ```

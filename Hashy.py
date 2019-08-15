@@ -1,17 +1,21 @@
 try:
-    import os
     import requests
-    import re
     import sys
+    import os
     from huepy import *
 except:
-    print('''
-        Required modules not found!
-        Try -> pip install -r requirementx.txt
+    print('''\033[91m
+        +-------------------------------------------+
+        |          ** Missing Modules **            |
+        +-------------------------------------------+
+        | requests, sys, os and huepy are required. |
+        |   Check if any one of them are missing.   |
+        | try --> pip install -r requirements.txt   |
+        +-------------------------------------------+
      ''')
-    sys.exit()
-
-os.system('cls')
+    exit()
+    
+os.system('clear')
 
 print(green('''
  _     _ _______ _______ _     _ __   __

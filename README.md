@@ -14,7 +14,7 @@ A simple yet useful password hash cracker that do not require any wordlist to wo
 
 ## 【 Installation 】
 ```
-★ git clone https://github.com/cyber-croc/Hashy.git
+★ git clone https://github.com/darealzane/Hashy.git
 ★ cd Hashy
 ★ pip install -r requirements.txt
 ★ python3 Hashy.py

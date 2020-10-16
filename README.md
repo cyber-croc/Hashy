@@ -6,6 +6,7 @@
     <img src="https://img.shields.io/github/languages/code-size/cyber-croc/Hashy">
   </a>
 
+<hr>
 <h2 align=center>Hashy.</h2>
 
 ## Info.

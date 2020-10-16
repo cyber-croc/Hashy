@@ -1,12 +1,3 @@
-<p align="center">
-  <a href="https://github.com/cyber-croc/Hashy/">
-    <img src="https://img.shields.io/badge/Release-v1.0-informational">
-  </a>
-  <a href="https://github.com/cyber-croc/Hashy/">
-    <img src="https://img.shields.io/github/languages/code-size/cyber-croc/Hashy">
-  </a>
-
-<hr>
 <h2 align=center>Hashy.</h2>
 
 ## Info.

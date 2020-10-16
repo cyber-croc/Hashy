@@ -31,5 +31,3 @@ A simple yet useful password hash cracker that do not require any wordlist to wo
 * sha512
 
 ***
-
-### THIS ONLY WORKS WITH PYTHON 3.

@@ -7,8 +7,6 @@
   </a>
   
 <h1 align="center">HASHY<h1>
-  
-<h4><b>NOTE: This only works with Python 3.</b></h4>
 
 ## Info.
 A simple yet useful password hash cracker that do not require any wordlist to work. It can crack hashes using online APIs. Which is more  effective with a higher success rate.
@@ -33,3 +31,5 @@ A simple yet useful password hash cracker that do not require any wordlist to wo
 * sha512
 
 ***
+
+### THIS ONLY WORKS WITH PYTHON 3.

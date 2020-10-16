@@ -6,6 +6,8 @@
     <img src="https://img.shields.io/github/languages/code-size/cyber-croc/Hashy">
   </a>
 
+<h2 align=center>Hashy.</h2>
+
 ## Info.
 A simple yet useful password hash cracker that do not require any wordlist to work. It can crack hashes using online APIs. Which is more  effective with a higher success rate.
 

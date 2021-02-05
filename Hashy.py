@@ -45,6 +45,11 @@ else:
     print (bad('Unidentified Hash Function!'))
     exit(1)
 
+	
+def md5crack(hashvalue):
+	r = requests.get('http://www.nitrxgen.net/md5db/' + hashvalue).text
+	print(good('Password is >>> ' + green(r)))
+	
 def decrypter(hashvalue, hashtype):
     r = requests.get(
         'https://md5decrypt.net/Api/api.php?hash=%s&hash_type=%s&email=cybercroc@protonmail.com&code=c5ddc9bbd5b07c45' % (hashvalue, hashtype)).text
@@ -54,8 +59,10 @@ def decrypter(hashvalue, hashtype):
         print(bad('Hash was not found in the database.'))
         return False
 
-if hashtype == 'md5' or 'sha1' or 'sha256' or 'sha384' or 'sha512':
+if hashtype == 'sha1' or 'sha256' or 'sha384' or 'sha512':
     decrypter(hashvalue, hashtype)
+elif hashtype == 'md5':
+	md5crack()
 else:
     exit()
 

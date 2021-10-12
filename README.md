@@ -14,6 +14,8 @@ A simple python application that decode password hashes with the help of some AP
 
 **Installation**
 ```
+git clone https://github.com/zanesense/Hashy.git
+cd Hashy
 pip install -r requirements.txt
 python hashy.py
 ```

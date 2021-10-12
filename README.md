@@ -12,11 +12,24 @@ A simple python application that decode password hashes with the help of some AP
 4. SHA-384
 5. SHA-512
 
-**Installation**
+## Installation
+
+**Setup**
 ```
 git clone https://github.com/zanesense/Hashy.git
 cd Hashy
 pip install -r requirements.txt
+```
+
+**Running the program**
+
+*with argument*
+```
+python hashy.py -p [hash]
+```
+
+*without argument*
+```
 python hashy.py
 ```
 <p>

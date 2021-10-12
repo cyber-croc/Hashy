@@ -25,9 +25,9 @@ A simple yet useful password hash cracker that do not require any wordlist to wo
 ***
 
 <p>
-  <a href="https://github.com/cyber-croc/Hashy/">
+  <a href="https://github.com/zanesense/Hashy/">
     <img src="https://img.shields.io/badge/Release-v1.0-informational">
   </a>
-  <a href="https://github.com/cyber-croc/Hashy/">
-    <img src="https://img.shields.io/github/languages/code-size/cyber-croc/Hashy">
+  <a href="https://github.com/zanesense/Hashy/">
+    <img src="https://img.shields.io/github/languages/code-size/zanesense/Hashy">
   </a>

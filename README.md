@@ -1,4 +1,4 @@
-# zerotwo.
+# Hashy💥
 ## _Blazing fast hash cracking using online APIs._
 
 A simple python application that decode password hashes with the help of some APIs/without a wordlist.
@@ -9,7 +9,8 @@ A simple python application that decode password hashes with the help of some AP
 1. MD5
 2. SHA-1
 3. SHA-256
-4. SHA-512
+4. SHA-384
+5. SHA-512
 
 **Installation**
 ```

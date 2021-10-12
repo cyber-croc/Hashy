@@ -2,29 +2,36 @@
 # -*- coding: utf-8 -*-
 
 try:
-    import os,sys,requests
+    import os,sys,requests,argparse
     from huepy import *
 except:
       print('''\033[91m
-        +-------------------------------------------+
-        |          ** Missing Modules **            |
-        +-------------------------------------------+
-        | requests, sys, os and huepy are required. |
-        |   Check if any one of them are missing.   |
-        | try --> pip install -r requirements.txt   |
-        +-------------------------------------------+
+        +-----------------------------------------------------+
+        |                ** Missing Modules **                |
+        +-----------------------------------------------------+
+        | requests, sys, os, argparse and huepy are required. |
+        |      Check if any one of them are missing.          |
+        |    try --> pip install -r requirements.txt          |
+        +-----------------------------------------------------+
      ''')
       exit()
     
 os.system('cls')
 os.system('clear')
 
+parser = argparse.ArgumentParser()
+parser.add_argument('-p', help='Hash which needs to be decoded.', dest='passw')
+args = parser.parse_args()
+
 print(green(''' 
  _     _ _______ _______ _     _ __   __
  |_____| |_____| |______ |_____|   \_/  
  |     | |     | ______| |     |    |    \n'''))
 
-hashvalue = input(info("Enter your hash.\n> "))
+if not len(sys.argv) > 1:
+    hashvalue = input(info("Enter your hash.\n> "))
+else:
+    hashvalue = args.passw
 
 if len(hashvalue) == 32:
     print (info('Hash Function : MD5'))

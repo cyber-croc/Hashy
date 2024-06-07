@@ -1,4 +1,4 @@
-# Hashy -  Hash Decrypter
+# Hashy 
 
 ## Description
 This Python script is designed to identify and decrypt various hash values, including MD5, SHA-1, SHA-256, SHA-384, and SHA-512.

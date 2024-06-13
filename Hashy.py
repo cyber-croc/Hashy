@@ -7,7 +7,6 @@ import requests
 import argparse
 from huepy import *
 
-# Check if required modules are available
 try:
     import os, sys, requests, argparse
     from huepy import *
@@ -23,10 +22,8 @@ except ImportError as e:
      ''')
     sys.exit(1)
 
-# Clear the terminal screen
 os.system('cls' if os.name == 'nt' else 'clear')
 
-# Argument parser setup
 parser = argparse.ArgumentParser(description='Hash Decryption Script')
 parser.add_argument('-p', '--password', help='Hash which needs to be decoded.', dest='passw')
 parser.add_argument('--md5', help='Decode as MD5 hash.', action='store_true')
@@ -36,19 +33,16 @@ parser.add_argument('--sha384', help='Decode as SHA-384 hash.', action='store_tr
 parser.add_argument('--sha512', help='Decode as SHA-512 hash.', action='store_true')
 args = parser.parse_args()
 
-# Print banner
 print(green(''' 
  _     _ _______ _______ _     _ __   __
  |_____| |_____| |______ |_____|   \_/  
  |     | |     | ______| |     |    |    \n'''))
 
-# Determine the hash value
 if not len(sys.argv) > 1:
     hashvalue = input(info("Enter your hash.\n> "))
 else:
     hashvalue = args.passw
 
-# Determine the hash type based on arguments
 if args.md5:
     print(info('Hash Function : MD5'))
     hashtype = 'md5'
@@ -65,7 +59,7 @@ elif args.sha512:
     print(info('Hash Function : SHA-512'))
     hashtype = 'sha512'
 else:
-    # Determine the hash type based on length if not provided as an argument
+
     if len(hashvalue) == 32:
         print(info('Hash Function : MD5'))
         hashtype = 'md5'
@@ -85,7 +79,6 @@ else:
         print(bad('Unidentified Hash Function!'))
         exit(1)
 
-# Function to crack MD5 hash
 def md5crack(hashvalue):
     try:
         r = requests.get('http://www.nitrxgen.net/md5db/' + hashvalue).text
@@ -94,7 +87,6 @@ def md5crack(hashvalue):
         print(bad('Error during request: ' + str(e)))
         return False
 
-# Function to decrypt hash
 def decrypter(hashvalue, hashtype):
     try:
         r = requests.get(
@@ -108,7 +100,6 @@ def decrypter(hashvalue, hashtype):
         print(bad('Error during request: ' + str(e)))
         return False
 
-# Decrypt the hash based on the hash type
 if hashtype in ['sha1', 'sha256', 'sha384', 'sha512']:
     decrypter(hashvalue, hashtype)
 elif hashtype == 'md5':

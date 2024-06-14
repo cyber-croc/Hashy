@@ -1,6 +1,6 @@
 # Hashy
 
-![Hashy Logo](path_to_logo_image)
+<center><img src="https://i.ibb.co/BfM6pJX/removal-ai-ad8ac601-8aaa-4621-848b-8a7ba46c4c7c-17183697753304avxpuuj.png" border="0"/></center>
 
 ![Python Version](https://img.shields.io/badge/Python-3.x-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
@@ -63,10 +63,10 @@ python hashy-gui.py
 ## Screenshots
 
 ### Console Version
-![Console Screenshot](path_to_console_screenshot)
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/y5FfXhb/image.png" alt="image" border="0" /></a>
 
 ### GUI Version
-![GUI Screenshot](path_to_gui_screenshot)
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/vhSbvNh/Capture.png" alt="Capture" border="0" /></a>
 
 ## License
 
@@ -87,7 +87,3 @@ Special thanks to the developers and contributors who have made this project pos
 ### Support
 
 If you find Hashy useful, consider giving it a ⭐ on [GitHub](https://github.com/zanesense/hashy). Your support helps us to keep improving and maintaining the project.
-
----
-
-![Footer Logo](path_to_footer_logo)

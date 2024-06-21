@@ -3,7 +3,6 @@
 <center><img src="https://i.ibb.co/BfM6pJX/removal-ai-ad8ac601-8aaa-4621-848b-8a7ba46c4c7c-17183697753304avxpuuj.png" border="0"/></center>
 
 ![Python Version](https://img.shields.io/badge/Python-3.x-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 ![Issues](https://img.shields.io/github/issues/zanesense/hashy)
 ![Stars](https://img.shields.io/github/stars/zanesense/hashy)
@@ -68,19 +67,9 @@ python hashy-gui.py
 ### GUI Version
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/vhSbvNh/Capture.png" alt="Capture" border="0" /></a>
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contact
 
 For issues, contributions, or feedback, please reach out via [GitHub](https://github.com/zanesense/hashy).
-
----
-
-### Acknowledgements
-
-Special thanks to the developers and contributors who have made this project possible. Your support and contributions are greatly appreciated.
 
 ---
 

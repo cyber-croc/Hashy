@@ -1,4 +1,4 @@
 huepy==1.2.1
-requests==2.31.0
+requests==2.32.2
 PyQt5==5.15.7
 qdarkstyle==3.0.3

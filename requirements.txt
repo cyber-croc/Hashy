@@ -1,3 +1,4 @@
-huepy 
-requests
-qdarkstyle
+huepy==1.2.1
+requests==2.31.0
+PyQt5==5.15.7
+qdarkstyle==3.0.3
